@@ -1,0 +1,15 @@
+.important {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.flashy {
+  font-style: italic;
+  color: red;
+}
+
+.best {
+  background-color: #cce6ff;
+  font-family: fantasy;
+  font-weight: bold;
+}
