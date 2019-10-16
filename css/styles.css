@@ -1,3 +1,19 @@
+/* global tags */
+
+body {
+  background-color: burlywood;
+}
+
+p {
+  font-family: monospace;
+}
+
+h1 {
+  color: red;
+}
+
+/* Index tags */
+
 .important {
   font-weight: bold;
   font-style: italic;
@@ -12,4 +28,37 @@
   background-color: #cce6ff;
   font-family: fantasy;
   font-weight: bold;
+}
+
+/* Boring Lecture Tags */
+
+.intro {
+  text-align: center;
+  font-style: italic;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bodyText {
+  font-weight: lighter;
+}
+
+.closing {
+  text-align: center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.highlight {
+  background-color: cornsilk;
+}
+
+.img {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
