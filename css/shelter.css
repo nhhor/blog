@@ -15,40 +15,128 @@ p {
   margin-left: 20px;
 
 }
-.sidebar {
-  float: right;
-  width: 20%;
-  margin-left: 20px;
-  padding-left: 10px;
-  /* background-image: linear-gradient(#e6ffff, #99ccff); */
-  background-image: linear-gradient(to bottom, rgba(179,217,255,1), rgba(153,255,255,.1));
-  padding-bottom: 40%;
-}
+
 
 .sidebar .image {
   width: 98%;
 }
 
 
-.image {
+/* .image { */
   /* float: left; */
   /* margin-right: 20px; */
-  width: 220px;
-}
+  /* width: 220px; */
+/* } */
 
-.column {
+/* .column {
   float: left;
   width: 220px;
   height: 550px;
   margin-left: 20px;
-}
+} */
 
-.content {
+/* .content {
   float: left;
   width: 65%;
-}
+} */
 
 .everything {
   width: 100%;
 
+}
+
+
+@media screen and (min-width: 1100px) {
+  .content {
+    float: left;
+    width: 75%;
+  }
+  .column {
+    float: left;
+    width: 400px;
+    height: 550px;
+    margin-left: 20px;
+  }
+
+  .image {
+    margin-left: 20px;
+    width: auto;
+    max-height: 300px;
+  }
+  .sidebar {
+    float: right;
+    width: 20%;
+    margin-left: 20px;
+    padding-left: 10px;
+    /* background-image: linear-gradient(#e6ffff, #99ccff); */
+    background-image: linear-gradient(to bottom, rgba(179,217,255,1), rgba(153,255,255,.1));
+    padding-bottom: 40%;
+  }
+}
+
+@media screen and (max-width: 1099px) and (min-width: 481px) {
+  p {
+    color: red;
+  }
+  .content {
+    float: left;
+    width: 65%;
+  }
+  .column {
+    float: left;
+    width: 300px;
+    height: 550px;
+    margin-left: 20px;
+  }
+
+  .image {
+    margin-left: 20px;
+    width: auto;
+    max-height: 300px;
+  }
+  .sidebar {
+    float: right;
+    width: 20%;
+    margin-left: 20px;
+    padding-left: 10px;
+    /* background-image: linear-gradient(#e6ffff, #99ccff); */
+    background-image: linear-gradient(to bottom, rgba(179,217,255,1), rgba(153,255,255,.1));
+    padding-bottom: 40%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  p {
+    color: green;
+  }
+  .content {
+    float: left;
+    width: 65%;
+  }
+  .column {
+    float: left;
+    width: 400px;
+    height: 550px;
+    margin-left: 20px;
+  }
+
+  .image {
+    margin-left: 20px;
+    width: auto;
+    max-height: 300px;
+  }
+
+  .sidebar {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 30%;
+    margin-left: 20px;
+    padding-left: 10px;
+    /* background-image: linear-gradient(#e6ffff, #99ccff); */
+    background-image: linear-gradient(to bottom, rgba(179,217,255,1), rgba(153,255,255,1));
+  }
+  #contact {
+    display: none;
+  }
 }
