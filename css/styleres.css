@@ -1,0 +1,71 @@
+body {
+  background-color: #df80ff;
+  margin: 0px;
+}
+
+h1 {
+  text-align: center;
+  color: purple;
+  font-family: Helvetica;
+  background-color: #f2ccff;
+  margin-bottom: 0px;
+
+}
+
+.contact {
+  text-align: center;
+  background-color: #f2ccff;
+  padding-top: 1px;
+  padding-bottom: 20px;
+  margin-top: 0px;
+  color: #52527a;
+  font-weight: bold;
+  font-family: Helvetica;
+}
+
+.content {
+  background-image: linear-gradient(#f2ccff, #df80ff);
+  color: #52527a;
+  padding-top: 1px;
+}
+
+
+.education {
+  font-family: sans-serif;
+  margin-right: 50%;
+}
+
+.experience {
+  font-family: courier;
+  text-align: right;
+  margin-left: 70%;
+}
+
+
+.skills {
+  font-family: cursive;
+  font-weight: bolder;
+
+
+}
+
+.hobbies {
+  font-family: Monaco;
+  text-align: right;
+  margin-left: 70%;
+
+}
+
+.bold {
+  font-weight: bold;
+}
+
+
+.bioPic {
+  position: fixed;
+  width: 35%;
+  top: 25%;
+  left: 35%;
+  opacity: .5;
+
+}
