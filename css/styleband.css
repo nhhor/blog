@@ -10,12 +10,13 @@ h1 {
   padding-left: 10px;
   background-color: #ffb366;
   padding-bottom: 50%;
+  border: 5px outset #3385ff;
 }
 
 
 .image {
   float: left;
-  padding-right: 20px;
+  margin-right: 20px;
 }
 
 .history {
